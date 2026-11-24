@@ -1,0 +1,90 @@
+/* Desktop navbar */
+@media (min-width: 992px) {
+
+        #mainNav .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        margin: 0 auto !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #mainNav .nav-link {
+        white-space: nowrap;
+    }
+
+    #mainNav > .d-flex {
+        width: auto !important;
+        justify-content: flex-end !important;
+    }
+
+
+}
+/* Tablet and small laptop */
+@media (max-width: 991px) {
+
+    .banner {
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .banner h1 {
+        font-size: 36px;
+    }
+
+}
+
+
+/* Mobile devices */
+@media (max-width: 767px) {
+
+    .banner {
+        min-height: 400px;
+        padding: 40px 0;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+}
+
+
+/* Small mobile devices */
+@media (max-width: 575px) {
+
+    .banner {
+        min-height: 350px;
+        padding: 30px 0;
+    }
+
+    .banner h1 {
+        font-size: 25px;
+    }
+
+    .banner .btn-brand {
+        font-size: 13px;
+        padding: 10px 16px;
+    }
+
+}
+
+
+/* Extra small mobile devices */
+@media (max-width: 380px) {
+
+    .banner h1 {
+        font-size: 23px;
+    }
+
+    .banner .btn-brand {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+}
